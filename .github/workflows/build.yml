@@ -22,7 +22,7 @@ jobs:
           cd build/web
           git init
           git config --global user.email talzuchung@gmail.com
-          git config --global user.name kty
+          git config --global user.name rlaxodbs0
           git status
           git remote add origin https://${{secrets.GH_ACCESS_TOKEN}}@github.com/rlaxodbs0/propose.git
           git checkout -b gh-pages
